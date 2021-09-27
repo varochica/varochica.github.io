@@ -1,0 +1,41 @@
+code {
+  font-family: menlo, inconsolata, monospace;
+  font-size: calc(1em - 2px);
+  color: #555;
+  background-color: #f0f0f0;
+  padding: 0.2em 0.4em;
+  border-radius: 2px;
+}
+
+button,
+.button {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.button--secondary {
+  color: var(--primary-text);
+  border: 3px solid var(--secondary);
+  padding: 0.5em 1em;
+}
+
+.button--secondary:hover {
+  background: var(--secondary);
+  color: var(--secondary-text);
+}
+
+.button--primary {
+  color: var(--text);
+  border: 3px solid var(--primary);
+  padding: 0.5em 1em;
+}
+
+.button--primary:hover {
+  background: var(--primary);
+  color: var(--primary-text);
+}
+
+img {
+  opacity: var(--image-opacity);
+}

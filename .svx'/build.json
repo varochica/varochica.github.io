@@ -1,0 +1,12 @@
+{
+  "bundler": "rollup",
+  "shimport": "2.0.4",
+  "assets": {
+    "main": "client.857e5151.js"
+  },
+  "css": {},
+  "dependencies": {},
+  "legacy_assets": {
+    "main": "client.da83cfc2.js"
+  }
+}
